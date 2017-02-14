@@ -66,7 +66,7 @@ void tank(int pwrL, int pwrR) {
 
 //Arm Function
 void setArm(int pwr) {
-	motor[TRArm] = motor[TLArm] = (pwr);
+	motor[TRArm] = motor[TLArm] = motor[BRArm] = motor[BLArm] = (pwr);
 }
 
 //Claw Functions
