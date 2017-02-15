@@ -112,7 +112,7 @@ task autonomous() {
 goRobit(127, 127, 1000);//Robit forward
 goRobit(127, -127, 750);//Robit turns towards star on right
 goRobit(127, 127, 550);//Robit forward in preperation to grab star
-goClaw(127, 1750);//Claw closes to grab star
+goClaw(127, 1650);//Claw closes to grab star
 goRobit(127, -127, 500);//Robit turns
 goRobit(-127, -127, 2000);//Robit back towards fence
 goArm(127, 1650);//Arm up over fence
@@ -121,8 +121,8 @@ goArm(-127, 1600);//Arm down
 goRobit(127, 127, 1500);//Robit forward
 goRobit(127, -127, 600);//Robit turns towards cube
 goRobit(127, 127, 850);//Robit forwards towards cube
-goClaw(127, 600);//Claw closes on cube
-goRobit(-127, 127, 900);//Robit turns, back towards fence
+goClaw(127, 1500);//Claw closes on cube
+goRobit(-127, 127, 2000);//Robit turns, back towards fence
 goRobit(-127, -127, 750);//Robit backwards
 goArm(127, 1750);//Arm up, cube over fence
 goClaw(-127, 600);//Claw opens, cube drops
